@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+#It's also a nice "coin flip" to see which color wins!
 
 def random_neighbor(x, y):
     possiblecells = [(x, y), (x-1, y), (x+1, y), (x, y-1), (x, y+1), (x+1, y-1), (x+1, y+1), (x-1, y-1), (x-1, y+1)]
